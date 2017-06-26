@@ -5,12 +5,11 @@
   "scripts": {
     "test": "make lint"
   },
-  "repository": "git@github.com:melitele/byways.git",
-  "author": {
-    "name": "Damian Krzeminski",
-    "email": "pirxpilot@furkot.com",
-    "url": "https://pirxpilot.me"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/melitele/byways.git"
   },
+  "author": "Damian Krzeminski <pirxpilot@furkot.com> (https://pirxpilot.me)",
   "license": "MIT",
   "dependencies": {
     "component-classes": "^1.2.4",
@@ -36,5 +35,16 @@
     "k": "yields-k",
     "load": "dynload",
     "maps": "google-maps-facade"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/melitele/byways/issues"
+  },
+  "homepage": "https://github.com/melitele/byways#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "scenic_byways"
+  ]
 }
